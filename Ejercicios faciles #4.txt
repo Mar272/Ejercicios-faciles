@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int num, cont = 0;
+  cout << "Ingrese un número para determinar si es primo o no: ";
+  cin >> num;
+
+  for (int i = 1; i <= num; i++) {
+    if (num % i == 0) {
+      cont++;
+    }
+  }
+  cout << (cont == 2 ? "Es un número primo" : "No es un número primo");
+  return 0;
+}
