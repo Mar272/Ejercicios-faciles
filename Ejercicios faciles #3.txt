@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int num;
+  cout<<"Ingrese un número para determinar si es par o impar: ";
+  cin>>num;
+  cout << (num % 2 == 0 ? "Es un número par" : "Es un número impar");
+    return 0;
+}
