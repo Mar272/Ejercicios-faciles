@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  float centimetros, conversion;
+  cout<<"Convertidor de centimetros a pulgadas"<<"\n";
+  cout<<"Ingrese longitud en centimetros: ";"\n";
+  cin>>centimetros;
+  conversion= centimetros/2.54;
+  cout<<centimetros<<" cm = "<<conversion<<" pulgadas.";
+    return 0;
+}
